@@ -178,3 +178,7 @@ Total Time: 23.19320273399353 seconds
 Prompt Generation Time: 17.73605442047119 seconds
 Module Loading Time: 13.120726346969604 seconds
 Total Time: 30.856780767440796 seconds
+---NEW LOG---
+Prompt Generation Time: 21.09097456932068 seconds
+Module Loading Time: 135.20857214927673 seconds
+Total Time: 156.2995467185974 seconds

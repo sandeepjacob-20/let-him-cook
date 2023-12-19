@@ -16,7 +16,9 @@ model = genai.GenerativeModel('gemini-pro-vision')
 
 def generate_recipe(img):
   prompt_st = time.time()
-  response = model.generate_content(["what is this and generate the recipe to cook it ?",img],stream=True)
+  response = model.generate_content(['''what is this and generate the recipe to cook it ? and 
+                                     if it is not a food then give an error message
+                                     ''',img],stream=True)
   response.resolve()
   prompt_et = time.time()
 
