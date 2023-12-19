@@ -11,7 +11,7 @@ def foodIdentifierEngine(file):
     #processing text    
     img = Image.open('./temp/'+file.name)   
     response = generative_engine.generate_recipe(img)
-    placeholder.empty()
+    
     st.write(response["receipe"])
     st.divider()
     st.caption("This receipie was brought to you in "+str(response["prompt_generation_time"])+" seconds")
