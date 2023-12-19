@@ -16,7 +16,7 @@ def foodIdentifierEngine(file):
 
 
 
-st.markdown("<h1 style='text-align:center; font-family: garamond; font-size: 5vw'>Let Him Cook</h1>", unsafe_allow_html=True)   
+st.markdown("<h1 style='text-align:center; font-family: garamond; font-size: 45px'>Let Him Cook!</h1>", unsafe_allow_html=True)   
 st.divider()
 st.subheader("Upload an image of the dish you want to cook")
 file = st.file_uploader("", type=["jpg", "jpeg", "png"])
