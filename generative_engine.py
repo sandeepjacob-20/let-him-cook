@@ -16,7 +16,7 @@ model = genai.GenerativeModel('gemini-pro-vision')
 
 def generate_recipe(img):
   prompt_st = time.time()
-  response = model.generate_content(["what is this and generate the receipie to cook it ?",img],stream=True)
+  response = model.generate_content(["what is this and generate the recipe to cook it ?",img],stream=True)
   response.resolve()
   prompt_et = time.time()
 
@@ -27,6 +27,6 @@ def generate_recipe(img):
     f.write("Total Time: "+str(prompt_et-module_st)+" seconds\n")
 
   result = {}
-  result["receipe"] = response.text
+  result["recipe"] = response.text
   result["prompt_generation_time"] = prompt_et-prompt_st
   return result

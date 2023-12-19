@@ -12,11 +12,6 @@ def foodIdentifierEngine(file):
     img = Image.open('./temp/'+file.name)   
     response = generative_engine.generate_recipe(img)
     
-    # st.write(response["receipe"])
-    # st.divider()
-    # st.caption("This receipie was brought to you in "+str(response["prompt_generation_time"])+" seconds")
-    # os.remove('./temp/'+file.name) # Remove the file from the temp folder - causes error with caching
-
     return response
 
 
@@ -32,13 +27,13 @@ if file is None:
 if file is not None:
     placeholder = st.empty()
     with placeholder.container():
-        st.caption("Please wait while we analyze the image and generate the receipie...")
+        st.caption("Please wait while we analyze the image and generate the recipe...")
         response = foodIdentifierEngine(file)
     placeholder.empty()
-    st.write(response["receipe"])
+    st.write(response["recipe"])
     st.divider()
-    st.caption("This receipie was brought to you in "+str(response["prompt_generation_time"])+" seconds")
-    if (st.download_button("Download this receipie",data=response["receipe"],file_name="receipie.txt")):
+    st.caption("This recipe was brought to you in "+str(response["prompt_generation_time"])+" seconds")
+    if (st.download_button("Download this recipe",data=response["recipe"],file_name="recipe.txt")):
         st.snow()
         st.success("File downloaded", icon='✅')
 
