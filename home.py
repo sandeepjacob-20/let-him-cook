@@ -39,6 +39,6 @@ if file is not None:
                 st.snow()
                 st.success("File downloaded", icon='✅')
         except:
-            st.write("Some unexpected error occured, Please try again!!")
+            print("Some unexpected error occured, Please try again!!")
 
     
