@@ -150,3 +150,27 @@ Total Time: 79.52104020118713 seconds
 Prompt Generation Time: 18.81162142753601 seconds
 Module Loading Time: 3.092698335647583 seconds
 Total Time: 21.904319763183594 seconds
+---NEW LOG---
+Prompt Generation Time: 29.073682069778442 seconds
+Module Loading Time: 1.0847303867340088 seconds
+Total Time: 30.15841245651245 seconds
+---NEW LOG---
+Prompt Generation Time: 20.976157426834106 seconds
+Module Loading Time: 5.013323783874512 seconds
+Total Time: 25.989481210708618 seconds
+---NEW LOG---
+Prompt Generation Time: 34.899452447891235 seconds
+Module Loading Time: 58.9112651348114 seconds
+Total Time: 93.81071758270264 seconds
+---NEW LOG---
+Prompt Generation Time: 16.07277202606201 seconds
+Module Loading Time: 0.010576248168945312 seconds
+Total Time: 16.083348274230957 seconds
+---NEW LOG---
+Prompt Generation Time: 14.5530104637146 seconds
+Module Loading Time: 16.0010986328125 seconds
+Total Time: 30.5541090965271 seconds
+---NEW LOG---
+Prompt Generation Time: 19.16785192489624 seconds
+Module Loading Time: 4.02535080909729 seconds
+Total Time: 23.19320273399353 seconds
