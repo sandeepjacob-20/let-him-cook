@@ -6,10 +6,10 @@ module_st = time.time()
 # Load the JSON file
 # with open("config.json") as f:
 #     data = json.load(f)
-GOOGLE_API_KEY = os.environ["GOOGLE_API_KEY"]
+# GOOGLE_API_KEY = os.environ["GOOGLE_API_KEY"]
 
 # Configure the API key
-genai.configure(api_key=GOOGLE_API_KEY)
+genai.configure(api_key="AIzaSyCLWXaRPPyyzLuzUYrtGGyjEQ_rMWOaTMk")
 
 # Create the model
 model = genai.GenerativeModel('gemini-pro-vision')

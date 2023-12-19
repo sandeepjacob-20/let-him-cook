@@ -78,3 +78,59 @@ Total Time: 52.39586782455444 seconds
 Prompt Generation Time: 40.06931710243225 seconds
 Module Loading Time: 59.24299502372742 seconds
 Total Time: 99.31231212615967 seconds
+---NEW LOG---
+Prompt Generation Time: 19.293726205825806 seconds
+Module Loading Time: 13.29993486404419 seconds
+Total Time: 32.593661069869995 seconds
+---NEW LOG---
+Prompt Generation Time: 31.45611548423767 seconds
+Module Loading Time: 46.28039813041687 seconds
+Total Time: 77.73651361465454 seconds
+---NEW LOG---
+Prompt Generation Time: 25.449016094207764 seconds
+Module Loading Time: 0.0041484832763671875 seconds
+Total Time: 25.45316457748413 seconds
+---NEW LOG---
+Prompt Generation Time: 33.138956785202026 seconds
+Module Loading Time: 19.108760595321655 seconds
+Total Time: 52.24771738052368 seconds
+---NEW LOG---
+Prompt Generation Time: 51.623847007751465 seconds
+Module Loading Time: 0.0661628246307373 seconds
+Total Time: 51.6900098323822 seconds
+---NEW LOG---
+Prompt Generation Time: 22.64131259918213 seconds
+Module Loading Time: 95.87264275550842 seconds
+Total Time: 118.51395535469055 seconds
+---NEW LOG---
+Prompt Generation Time: 20.17219352722168 seconds
+Module Loading Time: 137.13520121574402 seconds
+Total Time: 157.3073947429657 seconds
+---NEW LOG---
+Prompt Generation Time: 27.297565460205078 seconds
+Module Loading Time: 0.004185676574707031 seconds
+Total Time: 27.301751136779785 seconds
+---NEW LOG---
+Prompt Generation Time: 30.922285318374634 seconds
+Module Loading Time: 2.785508871078491 seconds
+Total Time: 33.707794189453125 seconds
+---NEW LOG---
+Prompt Generation Time: 57.469441413879395 seconds
+Module Loading Time: 35.68639588356018 seconds
+Total Time: 93.15583729743958 seconds
+---NEW LOG---
+Prompt Generation Time: 19.3458309173584 seconds
+Module Loading Time: 0.0019478797912597656 seconds
+Total Time: 19.347778797149658 seconds
+---NEW LOG---
+Prompt Generation Time: 30.872472047805786 seconds
+Module Loading Time: 45.224512338638306 seconds
+Total Time: 76.09698438644409 seconds
+---NEW LOG---
+Prompt Generation Time: 12.055599689483643 seconds
+Module Loading Time: 74.22061920166016 seconds
+Total Time: 86.2762188911438 seconds
+---NEW LOG---
+Prompt Generation Time: 18.160576581954956 seconds
+Module Loading Time: 89.4954628944397 seconds
+Total Time: 107.65603947639465 seconds

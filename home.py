@@ -13,13 +13,14 @@ if file is not None:
         f.write(file.getbuffer())
 
     img = Image.open('./temp/'+file.name)
-    
+
     response = generative_engine.generate_recipe(img)
     st.write(response["receipe"])
+    st.divider()
     st.caption("This receipie was brought to you in "+str(response["prompt_generation_time"])+" seconds")
     os.remove('./temp/'+file.name)
-    st.divider()
-    if (st.download_button("Download this receipie",data=response["receipe"],file_name="receipie.docx")):
-        st.success("File downloaded", icon='✅')
+
+    # if (st.download_button("Download this receipie",data=response["receipe"],file_name="receipie.txt")):
+    #     st.success("File downloaded", icon='✅')
 
     
