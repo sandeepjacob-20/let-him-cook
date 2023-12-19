@@ -3,7 +3,7 @@ from PIL import Image
 import os
 import generative_engine
 
-# @st.cache_data
+@st.cache_data
 def processor(file):
     with open(os.path.join("temp",file.name),"wb") as f:
         f.write(file.getbuffer())
