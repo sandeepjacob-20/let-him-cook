@@ -190,3 +190,35 @@ Total Time: 22.28883957862854 seconds
 Prompt Generation Time: 39.11032748222351 seconds
 Module Loading Time: 21.27128791809082 seconds
 Total Time: 60.38161540031433 seconds
+---NEW LOG---
+Prompt Generation Time: 11.597827911376953 seconds
+Module Loading Time: 3.073091745376587 seconds
+Total Time: 14.67091965675354 seconds
+---NEW LOG---
+Prompt Generation Time: 26.89092445373535 seconds
+Module Loading Time: 20.54813551902771 seconds
+Total Time: 47.43905997276306 seconds
+---NEW LOG---
+Prompt Generation Time: 10.829687595367432 seconds
+Module Loading Time: 3.290548801422119 seconds
+Total Time: 14.12023639678955 seconds
+---NEW LOG---
+Prompt Generation Time: 13.5277259349823 seconds
+Module Loading Time: 23.476693868637085 seconds
+Total Time: 37.004419803619385 seconds
+---NEW LOG---
+Prompt Generation Time: 32.316221714019775 seconds
+Module Loading Time: 3.024350643157959 seconds
+Total Time: 35.340572357177734 seconds
+---NEW LOG---
+Prompt Generation Time: 31.182669162750244 seconds
+Module Loading Time: 9.490233659744263 seconds
+Total Time: 40.67290282249451 seconds
+---NEW LOG---
+Prompt Generation Time: 11.268296480178833 seconds
+Module Loading Time: 2.74743914604187 seconds
+Total Time: 14.015735626220703 seconds
+---NEW LOG---
+Prompt Generation Time: 15.558594942092896 seconds
+Module Loading Time: 4.720682382583618 seconds
+Total Time: 20.279277324676514 seconds
